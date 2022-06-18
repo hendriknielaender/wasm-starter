@@ -1,0 +1,13 @@
+[package]
+name = "wasm module starter"
+version = "0.1.0"
+authors = ["Your Name <you@example.com>"]
+description = "wasm module starter"
+license = "MIT"
+repository = "https://github.com/yourgithubusername/wasm-starter"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.81"
